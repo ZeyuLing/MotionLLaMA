@@ -1,4 +1,4 @@
-default_scope = 'motionllama'
+default_scope = 'mmotion'
 save_dir = './work_dirs'
 
 default_hooks = dict(

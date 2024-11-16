@@ -146,7 +146,6 @@ val_dataloader = dict(
         metainfo=dict(dataset_type='MotionHub test subset', task_name='MotionLlama test'),
         data_root='data/motionhub',
         task_mode='auto',
-        instruct_mode=True,
         min_duration=1.,
         serialize_data=False,
         pipeline=pipeline),

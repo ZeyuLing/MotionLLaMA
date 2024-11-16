@@ -28,7 +28,6 @@ train_dataloader = dict(
                 data_root='data/motionhub',
                 tasks=['a2g', 'g2a'],
                 task_mode='preset',
-                instruct_mode=True,
                 serialize_data=False,
                 min_duration=1.,
                 pipeline=pipeline),
@@ -39,7 +38,6 @@ train_dataloader = dict(
                 data_root='data/motionhub',
                 tasks=['a2g', 'g2a'],
                 task_mode='preset',
-                instruct_mode=True,
                 min_duration=1.,
                 serialize_data=False,
                 pipeline=pipeline),
@@ -60,7 +58,6 @@ val_dataloader = dict(
         data_root='data/motionhub',
         task_mode='preset',
         tasks='a2g',
-        instruct_mode=True,
         min_duration=1.,
         serialize_data=False,
         pipeline=pipeline),
@@ -88,4 +85,4 @@ test_evaluator = val_evaluator
 
 custom_hooks = [dict(type='BasicVisualizationHook', interval=1, in_batch_interval=50)]
 
-train_cfg=dict(max_epochs=1500)
+train_cfg=dict(max_epochs=1500, val_interval=1500)
