@@ -59,7 +59,7 @@ train_dataloader = dict(
                 data_root='data/motionhub',
                 task_mode='preset',
                 tasks=['t2m', 'm2t', 'pred', 'inbetween'],
-                instruct_mode=True,
+                
                 serialize_data=False,
                 min_duration=1.5,
                 pipeline=pipeline),
@@ -70,7 +70,7 @@ train_dataloader = dict(
                 data_root='data/motionhub',
                 task_mode='preset',
                 tasks=['t2m', 'm2t', 'pred', 'inbetween'],
-                instruct_mode=True,
+                
                 min_duration=1.5,
                 serialize_data=False,
                 pipeline=pipeline),
@@ -85,7 +85,7 @@ val_dataloader = dict(
         ann_file='test.json',
         task_mode='preset',
         tasks=['t2m', 'pred', 'inbetween'],
-        instruct_mode=True,
+        
         min_duration=1.5,
         pipeline=pipeline
     ),

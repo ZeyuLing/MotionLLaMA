@@ -118,7 +118,7 @@ train_dataloader = dict(
                 data_root='data/motionhub',
                 task_mode='preset',
                 tasks='a2g',
-                instruct_mode=True,
+                
                 serialize_data=False,
                 min_duration=0.5,
                 pipeline=pipeline),

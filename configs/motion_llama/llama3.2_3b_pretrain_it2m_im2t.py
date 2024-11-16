@@ -65,7 +65,7 @@ val_dataloader = dict(
         data_root='data/motionhub',
         task_mode='preset',
         tasks=['it2m'],
-        instruct_mode=True,
+        
         min_duration=1.,
         serialize_data=False,
         pipeline=pipeline),

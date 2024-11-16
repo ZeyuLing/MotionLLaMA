@@ -155,7 +155,7 @@ train_dataloader = dict(
                 data_root='data/motionhub',
                 task_mode='preset',
                 tasks='t2m',
-                instruct_mode=True,
+                
                 min_duration=0.5,
                 pipeline=pipeline),
             dict(
@@ -165,7 +165,7 @@ train_dataloader = dict(
                 data_root='data/motionhub',
                 task_mode='preset',
                 tasks='t2m',
-                instruct_mode=True,
+                
                 min_duration=0.5,
                 pipeline=pipeline),
         ]),
@@ -187,7 +187,7 @@ val_dataloader = dict(
         data_root='data/motionhub',
         task_mode='preset',
         tasks='t2m',
-        instruct_mode=True,
+        
         min_duration=0.5,
         pipeline=pipeline),
     collate_fn=dict(
