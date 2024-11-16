@@ -1,5 +1,6 @@
-# **MotionLLaMA: A Unified Framework for Motion Synthesis and Comprehension**
-![](./assets/figure_main_vis.png)
+# <img src="assets/motion_llama_logo.png" alt="Logo" style="width:50px; vertical-align:middle;"> **MotionLLaMA: A Unified Framework for Motion Synthesis and Comprehension**
+
+![](./assets/overview.pdf)
 
 <p align="center">
   <a href=''>
