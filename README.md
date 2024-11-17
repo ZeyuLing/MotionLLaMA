@@ -44,6 +44,12 @@
 
 [//]: # (</p>)
 
+## 📖 Introduction
+This project introduces:
+
+- MMotion: A public motion-related common library based on MMEngine, which includes PyTorch implementations of MotionLLaMA and various motion models.
+
+- MotionHub: Currently the largest open-source multimodal, multi-task motions dataset.
 
 ## 📜 TODO List
 - [x] Release the MMotion Library.
