@@ -1,5 +1,0 @@
-<|begin_of_text|><|start_header_id|>user<|end_header_id|>
-
-Formulate a set of actions described as: <|begin_of_union_caption|>one takes a combative stance while the other gets into a defensive position.<|end_of_caption|>. Two people might be part of this set.<|eot_id|><|start_header_id|>assistant<|end_header_id|>
-
-<|begin_of_text|><|begin_of_motion|><|MOTION_1381|><|MOTION_1886|><|MOTION_1450|><|MOTION_1942|><|MOTION_1459|><|MOTION_1218|><|MOTION_1433|><|MOTION_953|><|MOTION_41|><|MOTION_1347|><|MOTION_1877|><|MOTION_1347|><|MOTION_1948|><|MOTION_1786|><|MOTION_1406|><|MOTION_1505|><|MOTION_1538|><|end_of_motion|>, <|begin_of_next_motion|><|MOTION_664|><|MOTION_1624|><|MOTION_1824|><|MOTION_1250|><|MOTION_1475|><|MOTION_1660|><|MOTION_1658|><|MOTION_1340|><|MOTION_296|><|MOTION_1050|><|MOTION_87|><|MOTION_1472|><|MOTION_1850|><|MOTION_1552|><|MOTION_1042|><|MOTION_1222|><|MOTION_1684|><|end_of_motion|><|eot_id|>

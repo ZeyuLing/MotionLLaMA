@@ -1,5 +1,0 @@
-<|begin_of_text|><|start_header_id|>user<|end_header_id|>
-
-Generate a motion sequence based on my caption: <|begin_of_caption|>running from side to side.<|end_of_caption|><|eot_id|><|start_header_id|>assistant<|end_header_id|>
-
-<|begin_of_text|>Okay, here is the motion: <|begin_of_motion|><|MOTION_1973|><|MOTION_547|><|MOTION_1246|><|MOTION_1173|><|MOTION_308|><|MOTION_1791|><|MOTION_1935|><|MOTION_589|><|MOTION_1824|><|MOTION_1974|><|MOTION_1328|><|MOTION_1020|><|MOTION_1586|><|MOTION_1466|><|MOTION_504|><|MOTION_504|><|MOTION_1586|><|MOTION_504|><|MOTION_1613|><|MOTION_1904|><|MOTION_1535|><|MOTION_1535|><|MOTION_790|><|MOTION_1213|><|MOTION_1213|><|MOTION_1197|><|MOTION_1122|><|MOTION_719|><|MOTION_904|><|MOTION_360|><|MOTION_1234|><|MOTION_1828|><|MOTION_259|><|MOTION_1170|><|MOTION_152|><|MOTION_904|><|MOTION_1166|><|MOTION_896|><|MOTION_1881|><|MOTION_829|><|MOTION_138|><|MOTION_789|><|MOTION_982|><|MOTION_1111|><|MOTION_948|><|MOTION_1478|><|MOTION_1314|><|MOTION_1904|><|MOTION_1540|><|MOTION_1502|><|MOTION_980|><|end_of_motion|><|eot_id|>

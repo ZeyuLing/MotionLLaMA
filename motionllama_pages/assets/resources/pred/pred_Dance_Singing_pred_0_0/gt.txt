@@ -1,5 +1,0 @@
-<|begin_of_text|><|start_header_id|>user<|end_header_id|>
-
-Based on the initial action <|begin_of_past_motion|><|MOTION_1067|><|MOTION_1535|><|MOTION_1542|><|MOTION_1709|><|MOTION_1354|><|MOTION_766|><|MOTION_1114|><|MOTION_1276|><|MOTION_1655|><|MOTION_658|><|MOTION_766|><|MOTION_160|><|MOTION_593|><|MOTION_1323|><|MOTION_687|><|MOTION_518|><|MOTION_1992|><|end_of_motion|>, generate the rest of the motion.<|eot_id|><|start_header_id|>assistant<|end_header_id|>
-
-<|begin_of_text|>The full motion sequence generated is: <|begin_of_motion|><|MOTION_2012|><|MOTION_1904|><|MOTION_1960|><|MOTION_1709|><|MOTION_1246|><|MOTION_292|><|MOTION_1655|><|MOTION_12|><|MOTION_1910|><|MOTION_421|><|MOTION_1347|><|MOTION_1998|><|MOTION_896|><|MOTION_606|><|MOTION_1012|><|MOTION_1195|><|MOTION_8|><|MOTION_22|><|MOTION_1598|><|MOTION_343|><|MOTION_787|><|MOTION_1417|><|MOTION_787|><|MOTION_790|><|MOTION_1463|><|MOTION_1302|><|MOTION_571|><|MOTION_1456|><|MOTION_1818|><|MOTION_964|><|MOTION_1104|><|MOTION_2013|><|MOTION_1567|><|MOTION_840|><|MOTION_1715|><|MOTION_964|><|MOTION_1769|><|MOTION_207|><|MOTION_1693|><|MOTION_207|><|MOTION_1504|><|end_of_motion|><|eot_id|>
