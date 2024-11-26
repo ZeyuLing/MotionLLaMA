@@ -1,12 +1,12 @@
 # <img src="assets/motion_llama_logo.png" alt="Logo" style="width:50px; vertical-align:middle;"> **MotionLLaMA: A Unified Framework for Motion Synthesis and Comprehension**
 
-![](./assets/overview.pdf)
+![](./assets/overview.png)
 
 <p align="center">
   <a href=''>
     <img src='https://img.shields.io/badge/Paper-PDF-yellow?style=flat&logo=arXiv&logoColor=yellow'>
   </a>
-  <a href=''>
+  <a href='https://zeyuling.github.io/MotionLLaMA/'>
   <img src='https://img.shields.io/badge/Project-Page-orange?style=flat&logo=Google%20chrome&logoColor=orange'></a>
   <!-- <a href='https://youtu.be/0a0ZYJgzdWE'>
   <img src='https://img.shields.io/badge/YouTube-Video-EA3323?style=flat&logo=youtube&logoColor=EA3323'></a> -->
@@ -16,6 +16,7 @@
 
 <p align="center">
 <strong>MotionLLaMA: A Unified Framework for Motion Synthesis and Comprehension</strong>
+    <br>
     <a href='https://scholar.google.be/citations?hl=nl&user=znEflnQAAAAJ&view_op=list_works&gmla=AOAOcb2TR7qEXM6UaMoS2X58UZTBNRqgsZuX5pVg44IH3QjDY34EcXsYR1ulftMWcE4I2NDA6-JqCvBmLANJgCfgDvkD' target='_blank'>Zeyu Ling*</a>&emsp;
     <a href='' target='_blank'>Bo Han*</a>&emsp;
     <a href='' target='_blank'>Shiyang Li</a>&emsp;
@@ -26,20 +27,20 @@
     Zhejiang University&emsp;
     Zhejiang Lab
     <br>
+</br>
+
+
+## 💻 Project Page
+
+
+
+<p align="center">
+
+  <a href='https://zeyuling.github.io/MotionLLaMA/'></a>
+
+  <img src='https://img.shields.io/badge/Project-Page-orange?style=flat&logo=Google%20chrome&logoColor=orange'>		</a>
+
 </p>
-
-
-[//]: # (## 💻 Project Page)
-
-[//]: # ()
-
-[//]: # (<p align="center">)
-
-[//]: # (  <a href='https://fluide1022.github.io/MCM/'>)
-
-[//]: # (  <img src='https://img.shields.io/badge/Project-Page-orange?style=flat&logo=Google%20chrome&logoColor=orange'>		</a>)
-
-[//]: # (</p>)
 
 ## 📖 Introduction
 
@@ -54,7 +55,7 @@ This project introduces:
 
 - [x] Release the MMotion Library.
 - [x] Release the MotionHub dataset.
-- [ ] Release the demo video.
+- [x] Release the demo video.
 - [ ] Release MotionLLaMA official implementation.
 
 

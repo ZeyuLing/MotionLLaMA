@@ -98,8 +98,9 @@ model = dict(
     ),
     data_preprocessor=dict(
         type='MotionDataPreprocessor',
-        enable_norm=False,
-        norm=None,
+        normalizer=dict(
+            type='BaseMotionNormalizer',
+        ),
         vec2joints_fn='interhuman2joints',
         vec2rotation_fn='dummy_vec2rotation'
     ),
