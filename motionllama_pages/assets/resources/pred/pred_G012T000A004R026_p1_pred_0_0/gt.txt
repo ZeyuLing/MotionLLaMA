@@ -1,0 +1,5 @@
+<|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+Given the first half of the motion: <|begin_of_past_motion|><|MOTION_1874|><|MOTION_769|><|MOTION_2015|><|MOTION_1778|><|MOTION_1904|><|MOTION_1864|><|MOTION_1877|><|MOTION_622|><|MOTION_789|><|MOTION_1309|><|MOTION_1984|><|MOTION_297|><|end_of_motion|>, predict the rest and complete the sequence.<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+<|begin_of_text|>The complete motion sequence: <|begin_of_motion|><|MOTION_1874|><|MOTION_1995|><|MOTION_1214|><|MOTION_1326|><|MOTION_1222|><|MOTION_1864|><|MOTION_1184|><|MOTION_1157|><|MOTION_1272|><|MOTION_811|><|MOTION_1570|><|MOTION_71|><|MOTION_876|><|MOTION_950|><|MOTION_1337|><|MOTION_1749|><|MOTION_841|><|MOTION_2020|><|MOTION_1693|><|MOTION_1681|><|MOTION_1681|><|MOTION_449|><|MOTION_1781|><|MOTION_1940|><|MOTION_1904|><|MOTION_2023|><|MOTION_1913|><|MOTION_1781|><|MOTION_420|><|MOTION_657|><|end_of_motion|><|eot_id|>

@@ -1,0 +1,10 @@
+<|finetune_right_pad_id|><|finetune_right_pad_id|><|finetune_right_pad_id|><|finetune_right_pad_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 14 Nov 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Determine what action bridges <|begin_of_past_motion|><|MOTION_1382|><|MOTION_556|><|MOTION_1772|><|MOTION_180|><|MOTION_1507|><|MOTION_343|><|MOTION_1217|><|MOTION_844|><|MOTION_1504|><|MOTION_1624|><|MOTION_1330|><|MOTION_766|><|MOTION_1260|><|MOTION_1479|><|MOTION_1535|><|end_of_motion|> and <|begin_of_future_motion|><|MOTION_1794|><|MOTION_1815|><|MOTION_1042|><|MOTION_1020|><|MOTION_1414|><|MOTION_1624|><|MOTION_1015|><|MOTION_980|><|MOTION_1433|><|MOTION_1578|><|MOTION_745|><|MOTION_1507|><|MOTION_1427|><|MOTION_1870|><|MOTION_1446|><|end_of_motion|>.<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Likely it is <|begin_of_middle_motion|><|MOTION_1406|><|MOTION_1260|><|MOTION_1042|><|MOTION_1459|><|MOTION_1466|><|MOTION_1250|><|MOTION_552|><|MOTION_258|><|MOTION_1822|><|MOTION_1823|><|MOTION_1689|><|MOTION_1507|><|MOTION_1992|><|MOTION_570|><|MOTION_571|><|MOTION_571|><|MOTION_1456|><|MOTION_844|><|MOTION_1747|><|MOTION_195|><|MOTION_453|><|MOTION_1961|><|MOTION_2042|><|MOTION_766|><|MOTION_1715|><|MOTION_1715|><|MOTION_1715|><|MOTION_1042|><|MOTION_241|><|MOTION_609|><|MOTION_898|><|MOTION_1380|><|MOTION_1478|><|MOTION_1477|><|MOTION_1825|><|MOTION_1170|><|MOTION_385|><|MOTION_1045|><|MOTION_1045|><|MOTION_980|><|MOTION_844|><|MOTION_1737|><|MOTION_526|><|MOTION_699|><|MOTION_1020|><|MOTION_1314|><|end_of_motion|><|eot_id|><|eot_id|><|eot_id|>

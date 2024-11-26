@@ -1,0 +1,15 @@
+<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 14 Nov 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+The sequence <|begin_of_motion|><|MOTION_481|><|MOTION_1260|><|MOTION_303|><|MOTION_1904|><|MOTION_1904|><|MOTION_622|><|MOTION_1658|><|MOTION_1303|><|MOTION_1459|><|MOTION_516|><|MOTION_1634|><|MOTION_1672|><|MOTION_266|><|MOTION_478|><|MOTION_1171|><|MOTION_1171|><|MOTION_486|><|MOTION_478|><|MOTION_266|><|MOTION_433|><|MOTION_1904|><|MOTION_1906|><|MOTION_420|><|MOTION_308|><|MOTION_1575|><|MOTION_1064|><|MOTION_1904|><|MOTION_449|><|MOTION_1111|><|MOTION_1777|><|MOTION_1715|><|MOTION_697|><|MOTION_1658|><|MOTION_1586|><|MOTION_1260|><|MOTION_1064|><|MOTION_237|><|MOTION_1572|><|end_of_motion|> and <|begin_of_next_motion|><|MOTION_1675|><|MOTION_1773|><|MOTION_1130|><|MOTION_2027|><|MOTION_881|><|MOTION_2044|><|MOTION_1906|><|MOTION_818|><|MOTION_1786|><|MOTION_2008|><|MOTION_1877|><|MOTION_1184|><|MOTION_1134|><|MOTION_1839|><|MOTION_1345|><|MOTION_1538|><|MOTION_1538|><|MOTION_1877|><|MOTION_2028|><|MOTION_2028|><|MOTION_1134|><|MOTION_1756|><|MOTION_1148|><|MOTION_395|><|MOTION_1910|><|MOTION_2037|><|MOTION_1839|><|MOTION_2037|><|MOTION_1149|><|MOTION_1555|><|MOTION_1555|><|MOTION_1191|><|MOTION_1321|><|MOTION_1794|><|MOTION_1287|><|MOTION_1402|><|MOTION_424|><|MOTION_1811|><|end_of_motion|>. What does it show?<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 14 Nov 2024
+
+<|eot_id|><|begin_of_union_caption|>One individual positions himself/herself on the left side of another individual, placing his/her right hand on the left shoulder of the other person, and gently tapping the left cheek of the other person with his/her right hand, resulting in the other person moving one step backwards.<|end_of_caption|><|eot_id|>

@@ -1,0 +1,15 @@
+<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 18 Nov 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Invent a series of actions that match the following: <|begin_of_union_caption|>One person sits and throws rock-paper-scissors from behind, while the other person sits and throws rock-paper-scissors upward with their hands.<|end_of_caption|>. Two individuals might be involved.<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 18 Nov 2024
+
+<|eot_id|><|begin_of_motion|><|MOTION_1905|><|MOTION_389|><|MOTION_993|><|MOTION_1264|><|MOTION_1729|><|MOTION_1225|><|MOTION_235|><|MOTION_811|><|MOTION_287|><|MOTION_2007|><|MOTION_10|><|MOTION_641|><|MOTION_1225|><|MOTION_1787|><|MOTION_1368|><|MOTION_952|><|MOTION_889|><|MOTION_1582|><|MOTION_1962|><|MOTION_363|><|MOTION_1825|><|MOTION_673|><|MOTION_305|><|MOTION_1297|><|MOTION_1297|><|MOTION_1544|><|MOTION_363|><|MOTION_499|><|MOTION_1893|><|MOTION_287|><|MOTION_1870|><|MOTION_1341|><|MOTION_1082|><|MOTION_790|><|MOTION_1143|><|end_of_motion|>, <|begin_of_next_motion|><|MOTION_1242|><|MOTION_307|><|MOTION_1066|><|MOTION_1555|><|MOTION_870|><|MOTION_1869|><|MOTION_881|><|MOTION_1602|><|MOTION_1248|><|MOTION_765|><|MOTION_1041|><|MOTION_1655|><|MOTION_1974|><|MOTION_1988|><|MOTION_481|><|MOTION_1893|><|MOTION_2027|><|MOTION_358|><|MOTION_1136|><|MOTION_862|><|MOTION_1703|><|MOTION_695|><|MOTION_1778|><|MOTION_481|><|MOTION_1822|><|MOTION_1340|><|MOTION_1240|><|MOTION_358|><|MOTION_1914|><|MOTION_1368|><|MOTION_1397|><|MOTION_919|><|MOTION_1480|><|MOTION_2010|><|MOTION_1593|><|end_of_motion|><|eot_id|>

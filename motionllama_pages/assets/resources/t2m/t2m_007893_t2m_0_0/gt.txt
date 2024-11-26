@@ -1,0 +1,5 @@
+<|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+Produce a sequence of actions from my description: <|begin_of_caption|>the person is hopping up-and-down.<|end_of_caption|><|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+<|begin_of_text|>The resulting sequence is: <|begin_of_motion|><|MOTION_2022|><|MOTION_78|><|MOTION_1679|><|MOTION_1671|><|MOTION_1303|><|MOTION_1417|><|MOTION_1192|><|MOTION_1339|><|MOTION_1655|><|MOTION_342|><|MOTION_135|><|MOTION_1881|><|MOTION_1149|><|MOTION_342|><|MOTION_1476|><|MOTION_1811|><|MOTION_1767|><|MOTION_1857|><|end_of_motion|><|eot_id|>

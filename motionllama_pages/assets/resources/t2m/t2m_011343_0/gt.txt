@@ -1,0 +1,15 @@
+<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 14 Nov 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Generate a motion from my description: <|begin_of_caption|>a person puts hands together, then places them on his thighs and lastly outstretched from his sides.<|end_of_caption|><|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 14 Nov 2024
+
+<|eot_id|>Okay, here it is: <|begin_of_motion|><|MOTION_1308|><|MOTION_72|><|MOTION_447|><|MOTION_461|><|MOTION_46|><|MOTION_1946|><|MOTION_2017|><|MOTION_1642|><|MOTION_1787|><|MOTION_1884|><|MOTION_2008|><|MOTION_1157|><|MOTION_2008|><|MOTION_2008|><|MOTION_2017|><|MOTION_2017|><|MOTION_2008|><|MOTION_1857|><|MOTION_2008|><|MOTION_2008|><|MOTION_2008|><|MOTION_2008|><|MOTION_2008|><|MOTION_2008|><|MOTION_954|><|MOTION_1642|><|MOTION_1642|><|MOTION_1642|><|MOTION_1642|><|MOTION_1642|><|MOTION_1642|><|MOTION_1642|><|MOTION_2008|><|MOTION_2008|><|MOTION_2008|><|MOTION_1642|><|MOTION_1642|><|MOTION_1642|><|MOTION_1642|><|MOTION_695|><|MOTION_551|><|MOTION_1873|><|MOTION_1348|><|MOTION_620|><|MOTION_1614|><|MOTION_1769|><|MOTION_569|><|MOTION_1203|><|MOTION_12|><|MOTION_1572|><|MOTION_1183|><|MOTION_1867|><|MOTION_314|><|MOTION_1406|><|end_of_motion|><|eot_id|>

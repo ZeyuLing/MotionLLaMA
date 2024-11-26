@@ -1,0 +1,15 @@
+<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 15 Nov 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Guess the action that bridges the gap from <|begin_of_past_motion|><|MOTION_902|><|MOTION_1134|><|MOTION_1756|><|MOTION_1424|><|MOTION_750|><|MOTION_2008|><|MOTION_1134|><|MOTION_1914|><|MOTION_1294|><|MOTION_2013|><|MOTION_297|><|MOTION_1756|><|MOTION_107|><|MOTION_1914|><|MOTION_397|><|end_of_motion|> to <|begin_of_future_motion|><|MOTION_1734|><|MOTION_1730|><|MOTION_658|><|MOTION_107|><|MOTION_6|><|MOTION_1999|><|MOTION_1890|><|MOTION_2013|><|MOTION_107|><|MOTION_104|><|MOTION_1794|><|MOTION_1794|><|MOTION_784|><|MOTION_104|><|MOTION_1263|><|end_of_motion|>.<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 15 Nov 2024
+
+<|eot_id|>The action could be <|begin_of_middle_motion|><|MOTION_1219|><|MOTION_1641|><|MOTION_784|><|MOTION_1149|><|MOTION_551|><|MOTION_1762|><|MOTION_542|><|MOTION_1762|><|MOTION_1544|><|MOTION_2008|><|MOTION_1303|><|MOTION_1134|><|MOTION_1890|><|MOTION_1475|><|MOTION_2029|><|MOTION_1939|><|MOTION_1347|><|MOTION_1702|><|MOTION_1702|><|MOTION_1371|><|MOTION_199|><|MOTION_1345|><|MOTION_1914|><|MOTION_1991|><|MOTION_1991|><|MOTION_1345|><|MOTION_695|><|MOTION_1839|><|MOTION_862|><|MOTION_716|><|MOTION_1703|><|MOTION_1999|><|MOTION_1839|><|MOTION_1991|><|MOTION_1991|><|MOTION_1974|><|MOTION_1184|><|MOTION_1863|><|MOTION_1856|><|MOTION_638|><|MOTION_1944|><|MOTION_220|><|MOTION_62|><|MOTION_1147|><|MOTION_956|><|end_of_motion|><|eot_id|>

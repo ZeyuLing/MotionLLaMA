@@ -1,0 +1,5 @@
+<|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+Create a sequence based on this description: <|begin_of_caption|>A person plays the saw.<|end_of_caption|><|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+<|begin_of_text|>Here it is: <|begin_of_motion|><|MOTION_622|><|MOTION_644|><|MOTION_1747|><|MOTION_1321|><|MOTION_1160|><|MOTION_1115|><|MOTION_1867|><|MOTION_1839|><|MOTION_1871|><|MOTION_587|><|MOTION_1186|><|MOTION_2043|><|MOTION_1871|><|MOTION_1811|><|MOTION_948|><|MOTION_1263|><|MOTION_1551|><|MOTION_1706|><|end_of_motion|><|eot_id|>

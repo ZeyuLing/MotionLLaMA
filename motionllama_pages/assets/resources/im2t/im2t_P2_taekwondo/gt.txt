@@ -1,0 +1,15 @@
+<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 14 Nov 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+What scenario is depicted with <|begin_of_motion|><|MOTION_327|><|MOTION_948|><|MOTION_605|><|MOTION_1530|><|MOTION_1573|><|MOTION_1348|><|MOTION_970|><|MOTION_698|><|MOTION_644|><|MOTION_1185|><|MOTION_1767|><|MOTION_1375|><|MOTION_1969|><|MOTION_1283|><|MOTION_1026|><|MOTION_1349|><|MOTION_292|><|MOTION_1340|><|MOTION_834|><|MOTION_1529|><|MOTION_1746|><|MOTION_1203|><|MOTION_1786|><|MOTION_1625|><|MOTION_2007|><|MOTION_154|><|MOTION_1314|><|MOTION_1026|><|MOTION_1124|><|MOTION_1759|><|MOTION_1955|><|MOTION_74|><|MOTION_377|><|MOTION_108|><|MOTION_1258|><|MOTION_809|><|end_of_motion|> and <|begin_of_next_motion|><|MOTION_1200|><|MOTION_880|><|MOTION_964|><|MOTION_1012|><|MOTION_1223|><|MOTION_1358|><|MOTION_1936|><|MOTION_809|><|MOTION_1598|><|MOTION_1881|><|MOTION_1143|><|MOTION_812|><|MOTION_1186|><|MOTION_1448|><|MOTION_1867|><|MOTION_1179|><|MOTION_1409|><|MOTION_1151|><|MOTION_1980|><|MOTION_2032|><|MOTION_362|><|MOTION_651|><|MOTION_74|><|MOTION_1159|><|MOTION_1159|><|MOTION_1514|><|MOTION_1282|><|MOTION_446|><|MOTION_664|><|MOTION_154|><|MOTION_446|><|MOTION_1409|><|MOTION_1810|><|MOTION_984|><|MOTION_1133|><|MOTION_1400|><|end_of_motion|>?<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 14 Nov 2024
+
+<|eot_id|><|begin_of_union_caption|>both they are practicing taekwondo together. one person attempts to strike the other person, while the other person skillfully evades the oncoming attacks.<|end_of_caption|><|eot_id|>

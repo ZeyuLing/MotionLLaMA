@@ -1,0 +1,15 @@
+<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 18 Nov 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Observe the first motion part <|begin_of_past_motion|><|MOTION_1342|><|MOTION_1290|><|MOTION_766|><|MOTION_1085|><|MOTION_1230|><|MOTION_1302|><|MOTION_1292|><|MOTION_1457|><|MOTION_400|><|end_of_motion|> and predict the rest.<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 18 Nov 2024
+
+<|eot_id|>The predicted full motion is: <|begin_of_motion|><|MOTION_828|><|MOTION_1852|><|MOTION_1769|><|MOTION_1971|><|MOTION_351|><|MOTION_1454|><|MOTION_410|><|MOTION_68|><|MOTION_958|><|MOTION_1357|><|MOTION_1302|><|MOTION_1302|><|MOTION_1302|><|MOTION_896|><|MOTION_1292|><|MOTION_1547|><|MOTION_1633|><|MOTION_1223|><|MOTION_1302|><|MOTION_534|><|MOTION_1243|><|MOTION_1689|><|end_of_motion|><|eot_id|>

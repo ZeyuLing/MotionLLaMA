@@ -1,0 +1,15 @@
+<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 18 Nov 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Generate the missing motion segment to connect <|begin_of_past_motion|><|MOTION_742|><|MOTION_1851|><|MOTION_1791|><|MOTION_1756|><|MOTION_1767|><|MOTION_622|><|MOTION_750|><|end_of_motion|> and <|begin_of_future_motion|><|MOTION_1398|><|MOTION_1626|><|MOTION_1063|><|MOTION_1066|><|MOTION_377|><|MOTION_400|><|MOTION_225|><|end_of_motion|>.<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 18 Nov 2024
+
+<|eot_id|>The completed motion is <|begin_of_motion|><|MOTION_1459|><|MOTION_304|><|MOTION_445|><|MOTION_1337|><|MOTION_950|><|MOTION_318|><|MOTION_747|><|MOTION_445|><|MOTION_308|><|MOTION_249|><|MOTION_445|><|MOTION_623|><|MOTION_304|><|MOTION_278|><|MOTION_278|><|MOTION_950|><|MOTION_1794|><|MOTION_420|><|MOTION_677|><|MOTION_1451|><|MOTION_1707|><|MOTION_1822|><|MOTION_1179|><|MOTION_74|><|MOTION_1036|><|MOTION_1036|><|MOTION_839|><|MOTION_1781|><|MOTION_1781|><|MOTION_1893|><|MOTION_1766|><|MOTION_1409|><|MOTION_1810|><|MOTION_1664|><|MOTION_1900|><|MOTION_1811|><|end_of_motion|>.<|eot_id|>

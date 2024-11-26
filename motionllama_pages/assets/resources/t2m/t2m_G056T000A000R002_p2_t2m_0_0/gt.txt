@@ -1,0 +1,5 @@
+<|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+Generate actions based on the description: <|begin_of_caption|>A person is stepping forward and raising his/her hands to hug the other's back<|end_of_caption|><|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+<|begin_of_text|>The motion generated is: <|begin_of_motion|><|MOTION_1702|><|MOTION_1827|><|MOTION_114|><|MOTION_547|><|MOTION_2017|><|MOTION_1347|><|MOTION_1749|><|MOTION_333|><|MOTION_1971|><|MOTION_969|><|MOTION_1303|><|MOTION_1130|><|MOTION_1303|><|MOTION_894|><|MOTION_1909|><|MOTION_551|><|MOTION_1936|><|MOTION_809|><|MOTION_964|><|MOTION_1358|><|MOTION_1980|><|MOTION_1980|><|MOTION_1737|><|MOTION_1529|><|MOTION_1529|><|MOTION_2038|><|MOTION_1358|><|MOTION_1952|><|MOTION_1952|><|MOTION_1818|><|MOTION_1818|><|MOTION_1529|><|MOTION_1844|><|MOTION_1827|><|MOTION_237|><|MOTION_1130|><|MOTION_1305|><|MOTION_1791|><|MOTION_1782|><|MOTION_1575|><|MOTION_2034|><|MOTION_135|><|MOTION_634|><|MOTION_634|><|MOTION_308|><|MOTION_1162|><|MOTION_575|><|MOTION_1130|><|MOTION_787|><|end_of_motion|><|eot_id|>
