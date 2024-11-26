@@ -1,5 +1,0 @@
-<|begin_of_text|><|start_header_id|>user<|end_header_id|>
-
-Can you generate a motion sequence for the description: <|begin_of_caption|>The person is sitting and cutting their hair at the same time.<|end_of_caption|>?<|eot_id|><|start_header_id|>assistant<|end_header_id|>
-
-<|begin_of_text|>This is the sequence: <|begin_of_motion|><|MOTION_1308|><|MOTION_1468|><|MOTION_514|><|MOTION_2020|><|MOTION_1476|><|MOTION_478|><|MOTION_429|><|MOTION_438|><|MOTION_1811|><|MOTION_662|><|MOTION_662|><|MOTION_662|><|MOTION_1902|><|MOTION_1867|><|MOTION_1962|><|MOTION_486|><|MOTION_1962|><|MOTION_1684|><|MOTION_1350|><|MOTION_486|><|MOTION_662|><|MOTION_1010|><|MOTION_1902|><|MOTION_662|><|MOTION_765|><|MOTION_1010|><|MOTION_765|><|MOTION_662|><|MOTION_662|><|MOTION_1786|><|MOTION_662|><|MOTION_486|><|MOTION_1863|><|MOTION_662|><|MOTION_746|><|MOTION_1593|><|MOTION_1114|><|MOTION_741|><|MOTION_532|><|MOTION_1348|><|MOTION_1806|><|MOTION_1446|><|end_of_motion|><|eot_id|>

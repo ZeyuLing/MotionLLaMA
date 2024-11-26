@@ -1,5 +1,0 @@
-<|begin_of_text|><|start_header_id|>user<|end_header_id|>
-
-Produce a sequence of actions from this description: <|begin_of_caption|>A person is pushed by the other in front of him/her.<|end_of_caption|><|eot_id|><|start_header_id|>assistant<|end_header_id|>
-
-<|begin_of_text|>The motion sequence is: <|begin_of_motion|><|MOTION_1159|><|MOTION_2007|><|MOTION_1305|><|MOTION_1787|><|MOTION_422|><|MOTION_1545|><|MOTION_1085|><|MOTION_1900|><|MOTION_30|><|MOTION_786|><|MOTION_1006|><|MOTION_1827|><|MOTION_1706|><|MOTION_486|><|MOTION_746|><|MOTION_858|><|MOTION_1867|><|MOTION_1822|><|MOTION_1326|><|MOTION_1006|><|MOTION_1761|><|MOTION_87|><|MOTION_722|><|MOTION_862|><|MOTION_809|><|MOTION_1870|><|MOTION_1959|><|MOTION_305|><|MOTION_446|><|MOTION_7|><|MOTION_1913|><|MOTION_1261|><|MOTION_1913|><|MOTION_777|><|MOTION_377|><|MOTION_890|><|MOTION_1946|><|MOTION_913|><|MOTION_17|><|end_of_motion|><|eot_id|>

@@ -1,5 +1,0 @@
-<|begin_of_text|><|start_header_id|>user<|end_header_id|>
-
-Visualize this action described here: <|begin_of_caption|>The person is walking towards the other<|end_of_caption|><|eot_id|><|start_header_id|>assistant<|end_header_id|>
-
-<|begin_of_text|><|begin_of_motion|><|MOTION_1823|><|MOTION_677|><|MOTION_1767|><|MOTION_1885|><|MOTION_422|><|MOTION_1885|><|MOTION_1651|><|MOTION_395|><|MOTION_312|><|MOTION_614|><|MOTION_1626|><|MOTION_1566|><|MOTION_1309|><|MOTION_356|><|MOTION_835|><|MOTION_631|><|MOTION_1067|><|MOTION_1317|><|MOTION_2024|><|MOTION_1903|><|end_of_motion|><|eot_id|>
