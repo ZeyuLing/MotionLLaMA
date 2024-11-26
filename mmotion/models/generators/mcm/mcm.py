@@ -19,7 +19,7 @@ from mmotion.structures import DataSample
 
 sys.path.append(os.curdir)
 
-from mmotion.models.generators.motion_llm.tokenizers import WavTokenizer
+from mmotion.models.generators.wavtokenizer import WavTokenizer
 from mmotion.models.generators.base_diffusion_model import BaseDiffusionModel
 from mmotion.models.generators.mcm.mwnet_blocks import MWNetBlock
 from mmotion.registry import MODELS

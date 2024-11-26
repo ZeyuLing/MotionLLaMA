@@ -12,3 +12,5 @@ from .motion_llm import MotionCausalLM
 from .motiongpt import MotionGPT
 from .momask import MomaskTemporalTransformer, MomaskResidualTransformer, Momask
 from .tma import *
+from .wavtokenizer import WavTokenizer
+from .motion_tokenizer import MotionVQVAE, HoMiEncoder, HoMiDecoder, BaseEncoder

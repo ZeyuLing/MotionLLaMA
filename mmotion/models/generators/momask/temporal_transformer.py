@@ -8,7 +8,7 @@ from torch import nn
 from torch.distributions import Categorical
 from transformers import CLIPModel, CLIPProcessor
 
-from mmotion.models.generators.motion_llm.tokenizers import MotionVQVAE
+from mmotion.models.generators.motion_tokenizer import MotionVQVAE
 from mmotion.models.generators.mdm.mdm import PositionalEncoding
 from mmotion.models.generators.momask.in_out_process import OutputProcess_Bert
 from mmotion.models.generators.momask.momask_utils import uniform, cosine_schedule, get_mask_subset_prob, \

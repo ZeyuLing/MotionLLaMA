@@ -9,7 +9,7 @@ from torch.nn.utils.rnn import pad_sequence
 from transformers import PreTrainedTokenizerFast, T5ForConditionalGeneration, AutoConfig, BatchEncoding, \
     GenerationConfig
 from torch import nn
-from mmotion.models.generators.motion_llm.tokenizers import MotionVQVAE
+from mmotion.models.generators.motion_tokenizer import MotionVQVAE
 from mmotion.registry import MODELS
 from mmotion.structures import DataSample
 from mmotion.utils.typing import SampleList
