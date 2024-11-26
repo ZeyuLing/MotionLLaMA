@@ -1,0 +1,15 @@
+<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 14 Nov 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Show me a motion sequence for this description: <|begin_of_caption|>a person walks forward unbalanced and almost falls over.<|end_of_caption|><|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 14 Nov 2024
+
+<|eot_id|>This is the motion sequence: <|begin_of_motion|><|MOTION_1000|><|MOTION_122|><|MOTION_2022|><|MOTION_909|><|MOTION_695|><|MOTION_614|><|MOTION_1213|><|MOTION_400|><|MOTION_1770|><|MOTION_1995|><|MOTION_1801|><|MOTION_256|><|MOTION_560|><|MOTION_1911|><|MOTION_256|><|MOTION_560|><|MOTION_1899|><|MOTION_664|><|MOTION_2007|><|MOTION_1891|><|MOTION_664|><|MOTION_664|><|MOTION_377|><|MOTION_74|><|MOTION_664|><|MOTION_214|><|MOTION_117|><|MOTION_966|><|MOTION_652|><|end_of_motion|><|eot_id|>

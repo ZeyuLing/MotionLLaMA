@@ -1,0 +1,10 @@
+<|finetune_right_pad_id|><|finetune_right_pad_id|><|finetune_right_pad_id|><|finetune_right_pad_id|><|finetune_right_pad_id|><|finetune_right_pad_id|><|finetune_right_pad_id|><|finetune_right_pad_id|><|finetune_right_pad_id|><|finetune_right_pad_id|><|finetune_right_pad_id|><|finetune_right_pad_id|><|finetune_right_pad_id|><|finetune_right_pad_id|><|finetune_right_pad_id|><|finetune_right_pad_id|><|finetune_right_pad_id|><|finetune_right_pad_id|><|finetune_right_pad_id|><|finetune_right_pad_id|><|finetune_right_pad_id|><|finetune_right_pad_id|><|finetune_right_pad_id|><|finetune_right_pad_id|><|finetune_right_pad_id|><|finetune_right_pad_id|><|finetune_right_pad_id|><|finetune_right_pad_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 18 Nov 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Starting with <|begin_of_past_motion|><|MOTION_1853|><|MOTION_1775|><|MOTION_1840|><|MOTION_542|><|MOTION_1730|><|MOTION_1815|><|MOTION_1815|><|MOTION_1730|><|MOTION_2000|><|end_of_motion|>, infer how the motion sequence concludes.<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+The full motion sequence generated is: <|begin_of_motion|><|MOTION_1496|><|MOTION_408|><|MOTION_1856|><|MOTION_950|><|MOTION_2029|><|MOTION_773|><|MOTION_1815|><|MOTION_1340|><|MOTION_1433|><|MOTION_1916|><|MOTION_1857|><|MOTION_2044|><|MOTION_327|><|MOTION_1815|><|MOTION_766|><|MOTION_1130|><|MOTION_439|><|MOTION_1771|><|MOTION_1971|><|MOTION_1991|><|end_of_motion|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|>

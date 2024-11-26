@@ -1,0 +1,15 @@
+<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 18 Nov 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Create the missing motion segment that transitions from <|begin_of_past_motion|><|MOTION_160|><|MOTION_695|><|MOTION_954|><|MOTION_1884|><|MOTION_278|><|MOTION_1749|><|MOTION_619|><|end_of_motion|> to <|begin_of_future_motion|><|MOTION_446|><|MOTION_1874|><|MOTION_484|><|MOTION_1122|><|MOTION_440|><|MOTION_1507|><|MOTION_1225|><|end_of_motion|>.<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 18 Nov 2024
+
+<|eot_id|>The interpolated motion is likely <|begin_of_motion|><|MOTION_775|><|MOTION_1991|><|MOTION_731|><|MOTION_1857|><|MOTION_789|><|MOTION_551|><|MOTION_46|><|MOTION_1149|><|MOTION_950|><|MOTION_1149|><|MOTION_988|><|MOTION_658|><|MOTION_72|><|MOTION_1555|><|MOTION_1782|><|MOTION_1303|><|MOTION_1540|><|MOTION_2023|><|MOTION_2002|><|MOTION_929|><|MOTION_1913|><|MOTION_1140|><|MOTION_481|><|MOTION_786|><|MOTION_1341|><|MOTION_1770|><|MOTION_1264|><|MOTION_1326|><|MOTION_282|><|MOTION_147|><|MOTION_73|><|MOTION_1293|><|MOTION_515|><|MOTION_1843|><|end_of_motion|>.<|eot_id|>

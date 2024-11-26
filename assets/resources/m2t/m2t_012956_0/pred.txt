@@ -1,0 +1,10 @@
+<|finetune_right_pad_id|><|finetune_right_pad_id|><|finetune_right_pad_id|><|finetune_right_pad_id|><|finetune_right_pad_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 12 Nov 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+What's the person doing in this action? <|begin_of_motion|><|MOTION_2017|><|MOTION_65|><|MOTION_1172|><|MOTION_2031|><|MOTION_1655|><|MOTION_1858|><|MOTION_1915|><|MOTION_1459|><|MOTION_1769|><|MOTION_363|><|MOTION_1459|><|MOTION_716|><|MOTION_1520|><|MOTION_1703|><|MOTION_1703|><|MOTION_689|><|MOTION_1939|><|MOTION_1914|><|MOTION_1505|><|MOTION_1786|><|MOTION_1769|><|MOTION_191|><|MOTION_1520|><|MOTION_1340|><|MOTION_1967|><|MOTION_1475|><|MOTION_1701|><|MOTION_638|><|MOTION_199|><|MOTION_1985|><|MOTION_366|><|MOTION_748|><|MOTION_426|><|MOTION_763|><|MOTION_811|><|MOTION_1348|><|MOTION_135|><|MOTION_894|><|MOTION_1236|><|MOTION_1867|><|MOTION_2027|><|MOTION_1340|><|MOTION_1459|><|MOTION_363|><|MOTION_1448|><|MOTION_1459|><|MOTION_191|><|MOTION_1702|><|MOTION_1703|><|MOTION_638|><|MOTION_1974|><|MOTION_1574|><|MOTION_1593|><|MOTION_1858|><|MOTION_599|><|MOTION_1459|><|MOTION_1672|><|MOTION_1984|><|MOTION_700|><|MOTION_1769|><|MOTION_1222|><|MOTION_1935|><|MOTION_1347|><|MOTION_1811|><|MOTION_1867|><|MOTION_1805|><|MOTION_1475|><|MOTION_1641|><|MOTION_840|><|MOTION_1773|><|MOTION_1192|><|MOTION_297|><|MOTION_585|><|MOTION_1476|><|end_of_motion|><|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+<|begin_of_caption|>a person is holding something with his left hand while trying to open it with his right hand.<|end_of_caption|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|>

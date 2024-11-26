@@ -1,0 +1,15 @@
+<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 13 Nov 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+What connects the actions of <|begin_of_past_motion|><|MOTION_1230|><|MOTION_1858|><|end_of_motion|> and <|begin_of_future_motion|><|MOTION_305|><|MOTION_1029|><|end_of_motion|>?<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 13 Nov 2024
+
+<|eot_id|>The connecting action is <|begin_of_middle_motion|><|MOTION_610|><|MOTION_1476|><|MOTION_101|><|MOTION_1029|><|MOTION_1029|><|MOTION_1825|><|end_of_motion|><|eot_id|>

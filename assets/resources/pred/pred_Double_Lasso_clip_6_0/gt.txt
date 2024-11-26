@@ -1,0 +1,15 @@
+<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 18 Nov 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Predict the full motion starting from: <|begin_of_past_motion|><|MOTION_1010|><|MOTION_1102|><|MOTION_1476|><|MOTION_1243|><|MOTION_750|><|MOTION_1196|><|MOTION_1660|><|MOTION_1824|><|MOTION_547|><|MOTION_1782|><|MOTION_1157|><|MOTION_1223|><|MOTION_283|><|MOTION_283|><|MOTION_1677|><|MOTION_1595|><|MOTION_1157|><|MOTION_1520|><|MOTION_478|><|MOTION_6|><|MOTION_1222|><|MOTION_308|><|MOTION_114|><|MOTION_1773|><|MOTION_66|><|MOTION_1806|><|MOTION_1856|><|end_of_motion|>.<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 18 Nov 2024
+
+<|eot_id|>The entire motion sequence is: <|begin_of_motion|><|MOTION_1858|><|MOTION_501|><|MOTION_652|><|MOTION_1679|><|MOTION_894|><|MOTION_1196|><|MOTION_1660|><|MOTION_1906|><|MOTION_420|><|MOTION_11|><|MOTION_2015|><|MOTION_1223|><|MOTION_361|><|MOTION_361|><|MOTION_1677|><|MOTION_807|><|MOTION_2008|><|MOTION_1546|><|MOTION_478|><|MOTION_1660|><|MOTION_1906|><|MOTION_1909|><|MOTION_622|><|MOTION_1143|><|MOTION_1559|><|MOTION_601|><|MOTION_1799|><|MOTION_1463|><|MOTION_989|><|MOTION_1884|><|MOTION_765|><|MOTION_1240|><|MOTION_1350|><|MOTION_1794|><|MOTION_11|><|MOTION_1246|><|MOTION_1223|><|MOTION_907|><|MOTION_907|><|MOTION_1598|><|MOTION_1488|><|MOTION_622|><|MOTION_969|><|MOTION_358|><|MOTION_486|><|MOTION_590|><|MOTION_1677|><|MOTION_1808|><|MOTION_77|><|MOTION_1767|><|MOTION_1767|><|MOTION_1851|><|MOTION_542|><|MOTION_616|><|MOTION_686|><|MOTION_1479|><|MOTION_1042|><|MOTION_658|><|MOTION_956|><|MOTION_1470|><|MOTION_222|><|MOTION_546|><|MOTION_25|><|MOTION_459|><|MOTION_1728|><|MOTION_659|><|end_of_motion|><|eot_id|>

@@ -1,0 +1,15 @@
+<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 18 Nov 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Generate an action sequence that matches: <|begin_of_union_caption|>one person steps back, then walks towards the other person.<|end_of_caption|>, with the possibility of involving two people.<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 18 Nov 2024
+
+<|eot_id|><|begin_of_motion|><|MOTION_45|><|MOTION_74|><|MOTION_1359|><|MOTION_481|><|MOTION_45|><|MOTION_1874|><|MOTION_916|><|MOTION_664|><|MOTION_1159|><|MOTION_1409|><|MOTION_1893|><|MOTION_1973|><|MOTION_1913|><|MOTION_74|><|MOTION_1409|><|MOTION_1781|><|MOTION_948|><|MOTION_1856|><|MOTION_424|><|MOTION_1575|><|MOTION_988|><|MOTION_938|><|end_of_motion|>, <|begin_of_next_motion|><|MOTION_1734|><|MOTION_1300|><|MOTION_689|><|MOTION_1778|><|MOTION_424|><|MOTION_1173|><|MOTION_969|><|MOTION_1345|><|MOTION_1949|><|MOTION_695|><|MOTION_1345|><|MOTION_695|><|MOTION_695|><|MOTION_199|><|MOTION_1756|><|MOTION_1157|><|MOTION_2037|><|MOTION_1756|><|MOTION_1615|><|MOTION_976|><|MOTION_1839|><|MOTION_1236|><|end_of_motion|><|eot_id|>

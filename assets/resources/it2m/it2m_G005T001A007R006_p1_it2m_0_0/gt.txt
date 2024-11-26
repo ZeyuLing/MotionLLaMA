@@ -1,0 +1,5 @@
+<|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+Outline a set of actions based on the following: <|begin_of_union_caption|>Two people stand facing each other, extending their hands simultaneously to push each other's shoulders.<|end_of_caption|>, possibly involving two people.<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+<|begin_of_text|><|begin_of_motion|><|MOTION_1159|><|MOTION_2024|><|MOTION_498|><|MOTION_876|><|MOTION_1555|><|MOTION_431|><|MOTION_1906|><|MOTION_698|><|MOTION_1614|><|MOTION_43|><|MOTION_436|><|MOTION_1884|><|MOTION_1863|><|MOTION_841|><|MOTION_786|><|MOTION_1806|><|MOTION_1810|><|end_of_motion|>, <|begin_of_next_motion|><|MOTION_1398|><|MOTION_1573|><|MOTION_1870|><|MOTION_1433|><|MOTION_1505|><|MOTION_414|><|MOTION_1545|><|MOTION_1358|><|MOTION_700|><|MOTION_258|><|MOTION_468|><|MOTION_1066|><|MOTION_1371|><|MOTION_347|><|MOTION_636|><|MOTION_508|><|MOTION_511|><|end_of_motion|><|eot_id|>

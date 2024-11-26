@@ -1,0 +1,15 @@
+<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 18 Nov 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Generate the missing link between <|begin_of_past_motion|><|MOTION_1157|><|MOTION_1767|><|MOTION_278|><|MOTION_1031|><|MOTION_1755|><|end_of_motion|> and <|begin_of_future_motion|><|MOTION_1873|><|MOTION_1585|><|MOTION_1767|><|MOTION_1219|><|MOTION_1758|><|end_of_motion|>.<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 18 Nov 2024
+
+<|eot_id|>The interpolated motion is likely <|begin_of_motion|><|MOTION_1756|><|MOTION_1246|><|MOTION_1204|><|MOTION_312|><|MOTION_1736|><|MOTION_1839|><|MOTION_1948|><|MOTION_907|><|MOTION_283|><|MOTION_1559|><|MOTION_2013|><|MOTION_2013|><|MOTION_283|><|MOTION_283|><|MOTION_2013|><|MOTION_1974|><|MOTION_1559|><|MOTION_1559|><|MOTION_1559|><|MOTION_1948|><|MOTION_297|><|MOTION_1885|><|MOTION_114|><|MOTION_677|><|MOTION_619|><|end_of_motion|>.<|eot_id|>

@@ -1,0 +1,10 @@
+<|finetune_right_pad_id|><|finetune_right_pad_id|><|finetune_right_pad_id|><|finetune_right_pad_id|><|finetune_right_pad_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 18 Nov 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Given the initial motion details: <|begin_of_past_motion|><|MOTION_477|><|MOTION_190|><|MOTION_1221|><|MOTION_1083|><|MOTION_940|><|MOTION_657|><|MOTION_1513|><|MOTION_258|><|MOTION_1408|><|MOTION_1533|><|MOTION_81|><|MOTION_81|><|MOTION_204|><|MOTION_1997|><|MOTION_862|><|MOTION_1944|><|MOTION_1387|><|MOTION_1136|><|MOTION_363|><|MOTION_530|><|MOTION_175|><|MOTION_1909|><|MOTION_671|><|MOTION_2|><|MOTION_1738|><|MOTION_1334|><|MOTION_566|><|MOTION_1362|><|MOTION_814|><|MOTION_599|><|end_of_motion|>, predict how it concludes.<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+The full motion sequence is: <|begin_of_motion|><|MOTION_1873|><|MOTION_14|><|MOTION_1221|><|MOTION_1570|><|MOTION_620|><|MOTION_103|><|MOTION_1513|><|MOTION_620|><|MOTION_1585|><|MOTION_1533|><|MOTION_991|><|MOTION_991|><|MOTION_722|><|MOTION_657|><|MOTION_2030|><|MOTION_1064|><|MOTION_1387|><|MOTION_175|><|MOTION_1071|><|MOTION_363|><|MOTION_478|><|MOTION_1573|><|MOTION_1039|><|MOTION_368|><|MOTION_1136|><|MOTION_315|><|MOTION_1943|><|MOTION_1743|><|MOTION_1318|><|MOTION_566|><|MOTION_566|><|MOTION_1094|><|MOTION_1533|><|MOTION_1408|><|MOTION_157|><|MOTION_344|><|MOTION_344|><|MOTION_157|><|MOTION_157|><|MOTION_344|><|MOTION_157|><|MOTION_157|><|MOTION_344|><|MOTION_1533|><|MOTION_157|><|MOTION_503|><|MOTION_1427|><|MOTION_15|><|MOTION_914|><|MOTION_657|><|MOTION_1136|><|MOTION_478|><|MOTION_478|><|MOTION_662|><|MOTION_368|><|MOTION_368|><|MOTION_368|><|MOTION_368|><|MOTION_368|><|MOTION_368|><|MOTION_368|><|MOTION_368|><|MOTION_368|><|MOTION_368|><|MOTION_873|><|MOTION_268|><|MOTION_6|><|MOTION_690|><|MOTION_1071|><|MOTION_1581|><|MOTION_1114|><|MOTION_1570|><|MOTION_1309|><|MOTION_811|><|MOTION_1192|><|end_of_motion|><|eot_id|><|eot_id|>
