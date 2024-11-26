@@ -1,1 +1,0 @@
-from .motiongpt import MotionGPT

@@ -1,1 +1,0 @@
-from .hm3d2pos_rot import *
