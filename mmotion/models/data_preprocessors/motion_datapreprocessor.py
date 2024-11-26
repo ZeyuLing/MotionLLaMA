@@ -20,9 +20,9 @@ class MotionDataPreprocessor(BaseDataPreprocessor):
     _NON_CONCATENATE_KEYS = ['fps']
 
     def __init__(self,
-                 norm: dict = dict(norm_path='data/motionhub/statistics/humanml3d.pkl'),
+                 norm: dict = dict(norm_path='data/motionhub/statistics/interhuman.pkl'),
                  enable_norm: bool = True,
-                 pad_module=None,
+                 pad_module: Dict = None,
                  motion_keys: Optional[Tuple[str, List[str]]] = ['motion'],
                  audio_keys: Optional[Tuple[str, List[str]]] = ['audio', 'music'],
                  non_concatenate_keys: Optional[Tuple[str, List[str]]] = ['message'],
@@ -285,7 +285,7 @@ class MotionDataPreprocessor(BaseDataPreprocessor):
 
     def _preprocess_motion_batch(self,
                                  batch_motion: Union[List[Tensor], Tensor],
-                                 data_samples: Optional[SampleList]=None,
+                                 data_samples: Optional[SampleList] = None,
                                  input_key=None) -> Tuple[Tensor, SampleList]:
         """
         :param batch_motion: Motion tensor batch to be preprocessed. can be a list or a tensor(determined by dataloader collate_fn)
