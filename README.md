@@ -15,9 +15,7 @@
 </p>
 
 <p align="center">
-<!-- <h1 align="center">InterDiff: Generating 3D Human-Object Interactions with Physics-Informed Diffusion</h1> -->
-<strong>MotionLLaMA: A Unified Framework for Motion Synthesis and Comprehension</strong></h1>
-   <p align="center">
+<strong>MotionLLaMA: A Unified Framework for Motion Synthesis and Comprehension</strong>
     <a href='https://scholar.google.be/citations?hl=nl&user=znEflnQAAAAJ&view_op=list_works&gmla=AOAOcb2TR7qEXM6UaMoS2X58UZTBNRqgsZuX5pVg44IH3QjDY34EcXsYR1ulftMWcE4I2NDA6-JqCvBmLANJgCfgDvkD' target='_blank'>Zeyu Ling*</a>&emsp;
     <a href='' target='_blank'>Bo Han*</a>&emsp;
     <a href='' target='_blank'>Shiyang Li</a>&emsp;
@@ -28,14 +26,13 @@
     Zhejiang University&emsp;
     Zhejiang Lab
     <br>
-  </p>
 </p>
-
 
 
 [//]: # (## 💻 Project Page)
 
 [//]: # ()
+
 [//]: # (<p align="center">)
 
 [//]: # (  <a href='https://fluide1022.github.io/MCM/'>)
@@ -45,31 +42,61 @@
 [//]: # (</p>)
 
 ## 📖 Introduction
+
 This project introduces:
 
-- MMotion: A public motion-related common library based on MMEngine, which includes PyTorch implementations of MotionLLaMA and various motion models.
+- MMotion: A public motion-related common library based on MMEngine, which includes PyTorch implementations of
+  MotionLLaMA and various motion models.
 
 - MotionHub: Currently the largest open-source multimodal, multi-task motions dataset.
 
 ## 📜 TODO List
+
 - [x] Release the MMotion Library.
-- [ ] Release MotionLLaMA official implementation.
+- [x] Release the MotionHub dataset.
 - [ ] Release the demo video.
-- [ ] Release the MotionHub dataset.
+- [ ] Release MotionLLaMA official implementation.
+
+
+
+## 📥 Dataset Download
+
+<div align="center">
+<table cellspacing="0" cellpadding="0" bgcolor="#ffffff" border="0">
+  <tr>
+    <th align="center">Dataset</th>
+    <th align="center">Clip Number</th>
+    <th align="center">Caption Number</th>
+    <th align="center">Google Drive</th>
+    <th align="center">Baidu Disk</th>
+  </tr>
+  <tr></tr>
+  <tr>
+  <td align="center"><b>MotionHub V1</b></td>
+  <td align="center"><b>131512</b></td>
+  <td align="center"><b>269873</b></td>
+  <td align="center"><b></b></td>
+  <td align="center"><b>https://pan.baidu.com/s/1ozx1LEU88Zoyq80tvT7Bfw?pwd=AIXM</b></td>
+  </tr>
+</table>
+</div>
 
 
 
 [//]: # (## ⚙️ Implementation)
 
 [//]: # ()
+
 [//]: # (Coming soon!)
 
 [//]: # (## 🤝 Citation)
 
 [//]: # ()
+
 [//]: # (If you find this repository useful for your work, please consider citing it as follows:)
 
 [//]: # ()
+
 [//]: # (```)
 
 [//]: # (@article{ling2023mcm,)

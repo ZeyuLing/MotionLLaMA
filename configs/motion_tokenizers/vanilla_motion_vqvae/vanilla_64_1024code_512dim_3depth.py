@@ -1,4 +1,5 @@
-_base_=['../base_vqvae.py']
+# vqvae with same structure to T2M-GPT and MotionGPT
+_base_ = ['../base_vqvae.py']
 
 pipeline = [
     dict(type='LoadMotionVector', keys=['interhuman'], save_keys=['motion'], data_source='interhuman'),
@@ -65,7 +66,6 @@ val_dataloader = dict(
 
 test_dataloader = val_dataloader
 
-
 model = dict(
     type='MotionVQVAE',
     quantizer=dict(
@@ -75,25 +75,25 @@ model = dict(
         mu=0.99
     ),
     encoder=dict(
-        type='EncoderV1',
+        type='BaseEncoder',
         in_channels=156,
         out_channels=512,
         block_out_channels=(512, 512, 512),
         layers_per_block=3,
         layers_mid_block=0,
-        norm_type='group',
-        activation_type='silu',
+        norm_type=None,
+        activation_type='relu',
         dilation_growth_rate=3,
     ),
     decoder=dict(
-        type='DecoderV1',
+        type='HoMiDecoder',
         in_channels=512,
         out_channels=156,
         block_out_channels=(512, 512, 512),
         layers_per_block=3,
         layers_mid_block=0,
-        norm_type='group',
-        activation_type='silu',
+        norm_type=None,
+        activation_type='relu',
         dilation_growth_rate=3,
     ),
     data_preprocessor=dict(
@@ -111,4 +111,3 @@ model = dict(
         recons_type='l1_smooth',
     )
 )
-
