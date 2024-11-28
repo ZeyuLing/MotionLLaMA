@@ -3,7 +3,7 @@
 ![](./assets/overview.png)
 
 <p align="center">
-  <a href=''>
+  <a href='https://arxiv.org/abs/2411.17335'>
     <img src='https://img.shields.io/badge/Paper-PDF-yellow?style=flat&logo=arXiv&logoColor=yellow'>
   </a>
   <a href='https://zeyuling.github.io/MotionLLaMA/'>
