@@ -135,8 +135,8 @@ class IM2TMetric(M2TMetric):
             batch_caption.append(caption)
             batch_caption_list.append(caption_list)
 
-            motion_a, _ = self.data_preprocessor._do_norm(motion_a)
-            motion_b, _ = self.data_preprocessor._do_norm(motion_b)
+            motion_a, _ = self.data_preprocessor.do_norm(motion_a)
+            motion_b, _ = self.data_preprocessor.do_norm(motion_b)
             batch_motion.append(torch.cat([motion_a, motion_b], dim=-1))
         result = {
             'text': batch_caption,

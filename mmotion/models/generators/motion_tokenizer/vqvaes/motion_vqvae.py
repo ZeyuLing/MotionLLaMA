@@ -47,7 +47,7 @@ class MotionVQVAE(BaseVQVAE):
         return data_sample_list
 
 
-def main(cfg: str = 'configs/vqvae/homi_vqvae/homi_gate_encoder_out_gate_64_2048code_1536dim_3depth.py',
+def main(cfg: str = 'configs/vqvae/homi_vqvae/homi_vq_64_2048code_1536dim_3depth.py',
          checkpoint: str = '/data/lzy/projects/motion_llama/work_dirs/homi_gate_encoder_out_gate_64_2048code_1536dim_3depth/best_MPJPE_epoch_5000.pth',
          vis_dir='tmp',
          sample: str = 'data/motionhub/motionx/motion_data/interhuman/aist/subset_0001/Dance_Ballet_Jazz_Chaines.npy'):

@@ -63,17 +63,17 @@ model = dict(
             type='Pad1D',
             pad_to_max=True,
         ),
-        norm=dict(
-            feat_bias=1.0,
-            mean_key='pos_mean',
-            std_key='pos_std',
-            norm_path='data/motionhub/statistics/interhuman.pkl'),
+        normalizer=dict(type='BaseMotionNormalizer',
+                        feat_bias=1.0,
+                        mean_keys='pos_mean',
+                        std_keys='pos_std',
+                        norm_path='data/motionhub/statistics/interhuman.pkl'),
         vec2joints_fn='interhuman2joints',
         vec2rotation_fn='dummy_vec2rotation'
     ),
     mm_tokenizer_cfg=dict(
         motion=dict(
-            type='configs/vqvae/homi_vqvae/homi_gate_encoder_out_gate_64_2048code_1536dim_3depth.py',
+            type='configs/motion_tokenizers/homi_vqvae/homi_vq_64_2048code_1536dim_3depth.py',
             init_cfg=dict(
                 type='Pretrained',
                 checkpoint='work_dirs/homi_gate_encoder_out_gate_64_2048code_1536dim_3depth/best_MPJPE_epoch_5000.pth'

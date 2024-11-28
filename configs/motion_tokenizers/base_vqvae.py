@@ -108,4 +108,4 @@ visualizer = dict(
     motion_keys=['pred_joints', 'gt_joints'],
     is_smpl=False
 )
-custom_hooks = [dict(type='BasicVisualizationHook', interval=3, in_batch_interval=1000)]
+custom_hooks = [dict(type='BasicVisualizationHook', interval=1, in_batch_interval=1000)]

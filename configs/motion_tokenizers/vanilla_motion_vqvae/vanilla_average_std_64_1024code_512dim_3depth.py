@@ -1,7 +1,5 @@
-"""
-    Use mid layers, no lstm
-"""
 _base_=['../base_vqvae.py']
+
 pipeline = [
     dict(type='LoadMotionVector', keys=['interhuman'], save_keys=['motion'], data_source='interhuman'),
     dict(type='MotionResampleFPS', keys=['motion'], fps_key='fps', ori_fps_key='ori_fps',
@@ -71,17 +69,10 @@ test_dataloader = val_dataloader
 model = dict(
     type='MotionVQVAE',
     quantizer=dict(
-        type='ResidualVQ',
-        dim=512,
-        num_quantizers=1,
-        layer_quantizer=dict(
-            type='VectorQuantizer',
-            codebook_size=1024,
-            dim=512,
-            decay=0.99,
-            kmeans_init=True,
-            kmeans_iters=200,
-        )
+        type='EMAResetQuantizer',
+        nb_code=1024,
+        code_dim=512,
+        mu=0.99
     ),
     encoder=dict(
         type='BaseEncoder',
@@ -89,9 +80,10 @@ model = dict(
         out_channels=512,
         block_out_channels=(512, 512, 512),
         layers_per_block=3,
-        layers_mid_block=3,
-        norm_type='group',
-        activation_type='silu'
+        layers_mid_block=0,
+        norm_type=None,
+        activation_type='relu',
+        dilation_growth_rate=3,
     ),
     decoder=dict(
         type='HoMiDecoder',
@@ -99,17 +91,20 @@ model = dict(
         out_channels=156,
         block_out_channels=(512, 512, 512),
         layers_per_block=3,
-        layers_mid_block=3,
-        norm_type='group',
-        activation_type='silu'
+        layers_mid_block=0,
+        norm_type=None,
+        activation_type='relu',
+        dilation_growth_rate=3,
     ),
     data_preprocessor=dict(
         type='MotionDataPreprocessor',
-        normalizer=dict(type='BaseMotionNormalizer',
-            feat_bias=1.0,
+        normalizer=dict(
+            type='BaseMotionNormalizer',
             mean_keys='pos_mean',
             std_keys='pos_std',
-            norm_path='data/motionhub/statistics/interhuman.pkl'),
+            norm_path='data/motionhub/statistics/interhuman.pkl',
+            average_std=True
+        ),
         vec2joints_fn='interhuman2joints',
         vec2rotation_fn='dummy_vec2rotation'
     ),
@@ -118,3 +113,4 @@ model = dict(
         recons_type='l1_smooth',
     )
 )
+

@@ -7,7 +7,7 @@ from mmengine.model import BaseDataPreprocessor
 from mmengine.model.base_model.data_preprocessor import CastData
 from torch import Tensor
 
-from mmotion.motion_representation.format_convert import BIAS_KEYS
+from mmotion.models.data_preprocessors.normalizer import BaseMotionNormalizer
 from mmotion.registry import MODELS, FUNCTIONS
 from mmotion.structures import DataSample
 from mmotion.utils.typing import SampleList
@@ -20,8 +20,9 @@ class MotionDataPreprocessor(BaseDataPreprocessor):
     _NON_CONCATENATE_KEYS = ['fps']
 
     def __init__(self,
-                 norm: dict = dict(norm_path='data/motionhub/statistics/interhuman.pkl'),
-                 enable_norm: bool = True,
+                 normalizer: dict = dict(
+                     type='BaseMotionNormalizer',
+                     norm_path='data/motionhub/statistics/interhuman.pkl'),
                  pad_module: Dict = None,
                  motion_keys: Optional[Tuple[str, List[str]]] = ['motion'],
                  audio_keys: Optional[Tuple[str, List[str]]] = ['audio', 'music'],
@@ -31,7 +32,7 @@ class MotionDataPreprocessor(BaseDataPreprocessor):
                  stack_data_sample: bool = True,
                  ):
         """
-        :param norm: normalization dict for motionhub
+        :param norm: normalizer config
         :param enable_norm: whether to do normalization for motion data
         :param motion_keys: motion keys
         :param non_concatenate_keys: for non_concatenate data, we do no operations to collate them,
@@ -40,8 +41,7 @@ class MotionDataPreprocessor(BaseDataPreprocessor):
         """
         super().__init__()
         # normalization for motions
-        self._enable_norm = enable_norm
-        self.load_mean_std(norm)
+        self.normalizer: BaseMotionNormalizer = MODELS.build(normalizer)
 
         # padding for both motion and audio
         self._enable_pad = pad_module is not None
@@ -70,32 +70,6 @@ class MotionDataPreprocessor(BaseDataPreprocessor):
         self.vec2joints_fn = FUNCTIONS.get(vec2joints_fn)
         self.vec2rotation_fn = FUNCTIONS.get(vec2rotation_fn)
 
-    def load_mean_std(self, norm_cfg: Dict):
-        if not self._enable_norm:
-            mean = torch.tensor(0.)
-            std = torch.tensor(1.)
-        else:
-            feat_bias = norm_cfg.get('feat_bias', 1.)
-            statistic = np.load(norm_cfg['norm_path'], allow_pickle=True)
-
-            mean_key = norm_cfg.get('mean_key', 'mean')
-            std_key = norm_cfg.get('std_key', 'std')
-
-            if not isinstance(mean_key, list):
-                mean_key = [mean_key]
-            if not isinstance(std_key, list):
-                std_key = [std_key]
-
-            mean = torch.cat([torch.from_numpy(statistic[k]) for k in mean_key], dim=-1).float()
-            std = torch.cat(
-                [torch.from_numpy(statistic[k] / feat_bias if k in BIAS_KEYS else statistic[k]) for k in
-                 std_key], dim=-1).float()
-
-        self.register_buffer('mean', mean)
-        self.register_buffer('std', std)
-        self.mean.requires_grad = False
-        self.std.requires_grad = False
-
     def destruct(self,
                  outputs: Union[Tensor, List[Tensor]],
                  data_samples: Union[SampleList, DataSample, None] = None,
@@ -106,16 +80,12 @@ class MotionDataPreprocessor(BaseDataPreprocessor):
         :param data_samples: data samples
         :return: un-normalized motion tensor
         """
-        if isinstance(outputs, list):
-            outputs = [output * self.std + self.mean
-                       if output is not None else None for output in outputs]
-        else:
-            outputs = outputs * self.std + self.mean
+        outputs = self.normalizer.inv_normalize(outputs)
         outputs = self._undo_pad_motion(outputs, data_samples, key)
 
         return outputs
 
-    def _do_pad(self, inputs: Union[torch.Tensor, List[torch.Tensor]],
+    def do_pad(self, inputs: Union[torch.Tensor, List[torch.Tensor]],
                 data_samples: SampleList, key=None):
         """
         :param inputs: a batch of input needs to be padded
@@ -306,8 +276,8 @@ class MotionDataPreprocessor(BaseDataPreprocessor):
         ]), ('Expected the dimensions of all tensors must be the same, '
              f'but got {[tensor.ndim for tensor in batch_motion]}')
 
-        batch_motion, data_samples = self._do_norm(batch_motion, data_samples, input_key)
-        batch_motion, data_samples = self._do_pad(batch_motion, data_samples, input_key)
+        batch_motion, data_samples = self.do_norm(batch_motion, data_samples, input_key)
+        batch_motion, data_samples = self.do_pad(batch_motion, data_samples, input_key)
         if isinstance(batch_motion, list):
             batch_motion = torch.stack(batch_motion, dim=0)
         return batch_motion, data_samples
@@ -329,7 +299,7 @@ class MotionDataPreprocessor(BaseDataPreprocessor):
         if not data_samples:  # none or empty list
             data_samples = [DataSample() for _ in range(len(batch_audio))]
 
-        batch_audio, data_samples = self._do_pad(batch_audio, data_samples, input_key)
+        batch_audio, data_samples = self.do_pad(batch_audio, data_samples, input_key)
         if isinstance(batch_audio, list):
             batch_audio = torch.stack(batch_audio, dim=0)
         return batch_audio, data_samples
@@ -393,25 +363,18 @@ class MotionDataPreprocessor(BaseDataPreprocessor):
 
         return batch_inputs, data_samples
 
-    def _do_norm(self,
-                 inputs: Union[Tensor, List[Tensor]],
-                 data_samples: Union[SampleList, DataSample] = None,
-                 key=None) -> Tuple[Tensor, Union[SampleList, DataSample]]:
-        is_tensor = isinstance(inputs, Tensor)
-        if (not hasattr(self, 'mean') or self.mean is None) and not self._enable_norm:
-            return inputs, data_samples
-        self.mean = self.mean.to(inputs[0])
-        self.std = self.std.to(inputs[0])
-        inputs = [(m - self.mean) / self.std for m in inputs]
+    def do_norm(self,
+                inputs: Union[Tensor, List[Tensor]],
+                data_samples: Union[SampleList, DataSample] = None,
+                key=None) -> Tuple[Tensor, Union[SampleList, DataSample]]:
 
-        if is_tensor:
-            inputs = torch.stack(inputs, dim=0)
+        inputs, mean, std = self.normalizer.normalize(inputs)
+
         key = f'{key}_' if key is not None else ''
         if data_samples is not None:
             data_process_meta = {
-                f'{key}enable_norm': self._enable_norm,
-                f'{key}mean': self.mean,
-                f'{key}std': self.std
+                f'{key}mean': mean,
+                f'{key}std': std
             }
             if isinstance(data_samples, list):
                 for data_sample in data_samples:
@@ -436,7 +399,7 @@ class MotionDataPreprocessor(BaseDataPreprocessor):
                 data = data_sample.get(key)
                 if data is None:
                     continue
-                data, _ = self._do_norm(data, data_sample, key)
+                data, _ = self.do_norm(data, data_sample, key)
 
                 data_sample.set_data({f'{key}': data})
 

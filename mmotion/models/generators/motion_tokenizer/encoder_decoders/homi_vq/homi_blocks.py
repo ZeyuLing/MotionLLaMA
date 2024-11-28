@@ -2,9 +2,9 @@ import torch.nn as nn
 import torch
 from diffusers.models.resnet import Downsample1D, Upsample1D
 
-from mmotion.models.generators.motion_tokenizer.encoder_decoders.modules.activation import get_activation
-from mmotion.models.generators.motion_tokenizer.encoder_decoders.modules.freq_gate import Gate
-from mmotion.models.generators.motion_tokenizer.encoder_decoders.modules.norm import get_norm
+from mmotion.models.generators.motion_tokenizer.encoder_decoders.homi_vq.modules import get_activation
+from mmotion.models.generators.motion_tokenizer.encoder_decoders.homi_vq.modules.freq_gate import Gate
+from mmotion.models.generators.motion_tokenizer.encoder_decoders.homi_vq.modules import get_norm
 
 
 class HoMiResConvBlock(nn.Module):

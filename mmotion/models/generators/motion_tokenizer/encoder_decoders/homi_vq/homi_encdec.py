@@ -4,9 +4,9 @@ from typing import Tuple
 import torch
 from torch import nn
 import torch.autograd.graph
-from mmotion.models.generators.motion_tokenizer.encoder_decoders.homi_blocks import HoMiBlock1D
-from mmotion.models.generators.motion_tokenizer.encoder_decoders.modules.activation import get_activation
-from mmotion.models.generators.motion_tokenizer.encoder_decoders.modules.norm import get_norm
+from mmotion.models.generators.motion_tokenizer.encoder_decoders.homi_vq.homi_blocks import HoMiBlock1D
+from mmotion.models.generators.motion_tokenizer.encoder_decoders.homi_vq.modules import get_activation
+from mmotion.models.generators.motion_tokenizer.encoder_decoders.homi_vq.modules import get_norm
 
 sys.path.append(os.curdir)
 

@@ -113,8 +113,8 @@ class IT2MMetric(T2MMetric):
         for data_sample in data_samples:
             gt_a = data_sample.get(self.motion_key)
             gt_b = data_sample.get(self.interactor_motion_key)
-            gt = torch.cat([self.data_preprocessor._do_norm(gt_a)[0],
-                            self.data_preprocessor._do_norm(gt_b)[0]], dim=-1)
+            gt = torch.cat([self.data_preprocessor.do_norm(gt_a)[0],
+                            self.data_preprocessor.do_norm(gt_b)[0]], dim=-1)
             pred_a = data_sample.get(self.pred_motion_key)
             pred_b = data_sample.get(self.pred_interactor_motion_key)
 
@@ -123,8 +123,8 @@ class IT2MMetric(T2MMetric):
                 not_matched_sample += 1
             else:
                 pred_num_frames = min(len(pred_a), len(pred_b))
-                pred = torch.cat([self.data_preprocessor._do_norm(pred_a[:pred_num_frames])[0],
-                                  self.data_preprocessor._do_norm(pred_b[:pred_num_frames])[0]], dim=-1)
+                pred = torch.cat([self.data_preprocessor.do_norm(pred_a[:pred_num_frames])[0],
+                                  self.data_preprocessor.do_norm(pred_b[:pred_num_frames])[0]], dim=-1)
             motion.append(gt.to(self.dtype))
             pred_motion.append(pred.to(self.dtype))
 

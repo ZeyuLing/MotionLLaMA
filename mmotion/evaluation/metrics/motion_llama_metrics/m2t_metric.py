@@ -143,7 +143,7 @@ class M2TMetric(BaseTMRMetric):
             batch_caption.append(caption)
             batch_caption_list.append(caption_list)
             batch_motion.append(motion)
-        batch_motion, _ = self.data_preprocessor._do_norm(batch_motion)
+        batch_motion, _ = self.data_preprocessor.do_norm(batch_motion)
         result = {
             'text': batch_caption,
             'pred_text': batch_pred_caption,

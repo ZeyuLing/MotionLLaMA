@@ -111,8 +111,8 @@ class T2MMetric(BaseTMRMetric):
             motion.append(gt.to(self.dtype))
             pred_motion.append(pred.to(self.dtype))
 
-        motion, _ = self.data_preprocessor._do_norm(motion)
-        pred_motion, _ = self.data_preprocessor._do_norm(pred_motion)
+        motion, _ = self.data_preprocessor.do_norm(motion)
+        pred_motion, _ = self.data_preprocessor.do_norm(pred_motion)
         result = {
             'text_embedding': self.tmr_model.encode_text(caption)[1],
             'motion_embedding': self.tmr_model.encode_motion(motion)[1],

@@ -15,7 +15,7 @@ import math
 import torch.nn as nn
 import torch
 
-from mmotion.models.generators.sound_tokenizer.modules.utils import apply_parametrization_norm, get_norm_module, \
+from mmotion.models.generators.wavtokenizer.modules.utils import apply_parametrization_norm, get_norm_module, \
     get_extra_padding_for_conv1d, pad1d
 
 

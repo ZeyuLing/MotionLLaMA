@@ -7,10 +7,10 @@ import torch
 from librosa import load
 from torch import nn
 
-from mmotion.models.generators.sound_tokenizer.modules.res_quantizer import ResidualVectorQuantizer
-from mmotion.models.generators.sound_tokenizer.modules.seanet import SEANetEncoder, SEANetDecoder
-from mmotion.models.generators.sound_tokenizer.modules.transformer import StreamingTransformerEncoder
-from mmotion.models.generators.sound_tokenizer.modules.utils import _linear_overlap_add, _get_checkpoint_url, \
+from mmotion.models.generators.wavtokenizer.modules.res_quantizer import ResidualVectorQuantizer
+from mmotion.models.generators.wavtokenizer.modules.seanet import SEANetEncoder, SEANetDecoder
+from mmotion.models.generators.wavtokenizer.modules.transformer import StreamingTransformerEncoder
+from mmotion.models.generators.wavtokenizer.modules.utils import _linear_overlap_add, _get_checkpoint_url, \
     _check_checksum
 
 EncodedFrame = Tuple[torch.Tensor, Optional[torch.Tensor]]

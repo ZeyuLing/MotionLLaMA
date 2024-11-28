@@ -11,10 +11,10 @@ import torch
 
 sys.path.append(os.curdir)
 from mmotion.datasets.transforms.loading import convert_audio
-from mmotion.models.generators.sound_tokenizer.encodec import EncodecFeatures
-from mmotion.models.generators.sound_tokenizer.modules.istft_head import ISTFTHead
-from mmotion.models.generators.sound_tokenizer.modules.utils import save_audio
-from mmotion.models.generators.sound_tokenizer.modules.vocos import VocosBackbone
+from mmotion.models.generators.wavtokenizer.encodec import EncodecFeatures
+from mmotion.models.generators.wavtokenizer.modules.istft_head import ISTFTHead
+from mmotion.models.generators.wavtokenizer.modules.utils import save_audio
+from mmotion.models.generators.wavtokenizer.modules.vocos import VocosBackbone
 from mmotion.registry import MODELS
 
 

@@ -98,13 +98,13 @@ class InbetweenMetric(BaseTMRMetric):
         if len(batch_pred_motion) == 0:
             return
         result = {}
-        batch_motion, _ = self.data_preprocessor._do_norm(batch_motion)
+        batch_motion, _ = self.data_preprocessor.do_norm(batch_motion)
 
         result['motion_embedding'] = self.tmr_model.encode_motion(batch_motion)[1]
         result['joints'] = batch_joints
 
         if len(batch_pred_motion):
-            batch_pred_motion, _ = self.data_preprocessor._do_norm(batch_pred_motion)
+            batch_pred_motion, _ = self.data_preprocessor.do_norm(batch_pred_motion)
             result['pred_motion_embedding'] = self.tmr_model.encode_motion(batch_pred_motion)[1]
             result['pred_joints'] = batch_pred_joints
         result['inbetween_not_match'] = not_match

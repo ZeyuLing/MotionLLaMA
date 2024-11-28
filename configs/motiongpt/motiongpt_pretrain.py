@@ -70,10 +70,10 @@ model = dict(
             type='Pad1D',
             pad_to_max=True,
         ),
-        norm=dict(
+        normalizer=dict(type='BaseMotionNormalizer',
             feat_bias=1.0,
-            mean_key='pos_mean',
-            std_key='pos_std',
+            mean_keys='pos_mean',
+            std_keys='pos_std',
             norm_path='data/motionhub/statistics/interhuman.pkl'),
         vec2joints_fn='interhuman2joints',
         vec2rotation_fn='dummy_vec2rotation'

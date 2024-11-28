@@ -8,7 +8,7 @@ from einops import rearrange, repeat
 from torch import nn
 import torch.nn.functional as F
 
-from mmotion.models.generators.sound_tokenizer.modules import distrib
+from mmotion.models.generators.wavtokenizer.modules import distrib
 
 
 @dataclass

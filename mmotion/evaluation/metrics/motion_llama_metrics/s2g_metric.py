@@ -131,13 +131,13 @@ class S2GMetric(BaseMetric):
 
         result = {}
         if len(batch_motion):
-            batch_motion, _ = self.data_preprocessor._do_norm(batch_motion)
+            batch_motion, _ = self.data_preprocessor.do_norm(batch_motion)
             result['motion_embedding'] = self.gesture_vae.encode_motion(batch_motion)[1]
             result['motion_beat'] = motion_beat
             result['motion'] = batch_motion
 
         if len(batch_pred_motion):
-            batch_pred_motion, _ = self.data_preprocessor._do_norm(batch_pred_motion)
+            batch_pred_motion, _ = self.data_preprocessor.do_norm(batch_pred_motion)
             result['pred_motion_embedding'] = self.gesture_vae.encode_motion(batch_pred_motion)[1]
             result['pred_motion_beat'] = pred_motion_beat
             result['pred_motion'] = batch_pred_motion

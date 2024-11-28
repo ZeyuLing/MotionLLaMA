@@ -108,16 +108,16 @@ train_dataloader = dict(
     batch_sampler=dict(type='TaskBatchSampler', drop_last=False),
     sampler=dict(type='DefaultSampler'),
     dataset=dict(
-                type='MultiModalLlamaDataset',
-                ann_file='beat_v2.0.0/train.json',
-                metainfo=dict(dataset_type='MotionHub train subset', task_name='MotionLlama pretraining'),
-                data_root='data/motionhub',
-                task_mode='preset',
-                tasks='ta2g',
-                
-                serialize_data=False,
-                min_duration=0.5,
-                pipeline=pipeline),
+        type='MultiModalLlamaDataset',
+        ann_file='beat_v2.0.0/train.json',
+        metainfo=dict(dataset_type='MotionHub train subset', task_name='MotionLlama pretraining'),
+        data_root='data/motionhub',
+        task_mode='preset',
+        tasks='ta2g',
+
+        serialize_data=False,
+        min_duration=0.5,
+        pipeline=pipeline),
     collate_fn=dict(
         type='pseudo_collate'
     )
@@ -158,13 +158,12 @@ model = dict(
     clip_path='checkpoints/vit_base_patch32/',
     data_preprocessor=dict(
         type='MotionDataPreprocessor',
-        norm=dict(
-            feat_bias=1.0,
-            mean_key='pos_mean',
-            std_key='pos_std',
-            norm_path='data/motionhub/statistics/interhuman.pkl'),
+        normalizer=dict(type='BaseMotionNormalizer',
+                        feat_bias=1.0,
+                        mean_keys='pos_mean',
+                        std_keys='pos_std',
+                        norm_path='data/motionhub/statistics/interhuman.pkl'),
         vec2joints_fn='interhuman2joints',
         vec2rotation_fn='dummy_vec2rotation'
     ),
 )
-
