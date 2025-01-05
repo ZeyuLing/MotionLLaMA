@@ -51,12 +51,21 @@ This project introduces:
 
 - MotionHub: Currently the largest open-source multimodal, multi-task motions dataset.
 
-## 📜 TODO List
+## 📜 What's New 
 
+- [x] 2024-12-27: Release the MotionHub V2, which involves following updates compared to the original version:
+  - 1. Manually correct the captions in Fit3D, HumanSC3D, Hi4D subset.
+  - 2. Manually filter and correct the InterHuman datset, low-quality motion clips are removed.
+  - 3. Chi3D dataset is removed, since the motion quality is not good.
+  - 4. Use PoseScript to generate frame-level caption for AIST++ and BEATV2 dataset, and we use ChatGPT-4o-mini to propess the frame-level caption to sentence-level caption.
+  - 5. Use ChatGPT-4o-mini to correct the caption in MotionX dataset w.r.t the frame-level caption, some original captions are not correct.
+  - 6. We define the granularity of all captions, including Macro, Meso and Micro. Macro is the lowest granularity, and Micro is the highest granularity.
+  - 7. We segment the BEATV2 dataset into clips with duration less than 12 seconds. We use whisper to generate the corresponding spoken text of each clip. Each clip contains complete setences, we do not segment one single sentence into multiple clips.
+  - 8. We remove the preclude dance clips in FineDance dataset, in the preclude clips, the dancer is not dancing but keeping the same pose. Then, we segment the remaining clips into clips with duration less than 12 seconds.
+  We hope this version can be more useful for the community.
 - [x] Release the MMotion Library.
 - [x] Release the MotionHub dataset.
 - [x] Release the demo video.
-- [ ] Release MotionLLaMA official implementation.
 
 
 
@@ -76,9 +85,15 @@ This project introduces:
   <td align="center"><b>MotionHub V1</b></td>
   <td align="center"><b>131512</b></td>
   <td align="center"><b>269873</b></td>
-  <td align="center"><b></b></td>
+  <td align="center"><b> Coming Soon </b></td>
   <td align="center"><b>https://pan.baidu.com/s/1vuewGrtVF9PjhEIiv153pw?pwd=AIXM</b></td>
   </tr>
+  <tr>
+  <td align="center"><b>MotionHub V2</b></td>
+  <td align="center"><b>142350</b></td>
+  <td align="center"><b>259998</b></td>
+  <td align="center"><b> Coming Soon </b></td>
+  <td align="center"><b>https://pan.baidu.com/s/1WO7FCC09qzkXAG0lCw1AVA?pwd=AIXM</b></td>
 </table>
 </div>
 
